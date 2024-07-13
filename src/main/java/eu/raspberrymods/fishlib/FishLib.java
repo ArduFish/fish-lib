@@ -17,6 +17,6 @@ public class FishLib implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.warn("This is a pretty fishy library mod!");
 	}
 }
