@@ -34,12 +34,9 @@
 	],
 	"custom": {
         "fstats": 64,
-		"duckyupdater": {
-            //Mod modrinth ID from project page
-            "modrinthId": "MZPZJNbC"
-            // Optional (release, beta, alpha)
-            // Default: release
-            //"type": "release"
+		"duckyupdater": {  
+            "modrinthId": "MZPZJNbC",
+			"type": "release"
         }
     },
 	"depends": {
