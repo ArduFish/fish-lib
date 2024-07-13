@@ -36,18 +36,20 @@
         "fstats": 64,
 		"duckyupdater": {
             //Mod modrinth ID from project page
-            "modrinthId": "MZPZJNbC",
+            "modrinthId": "MZPZJNbC"
             // Optional (release, beta, alpha)
             // Default: release
-            "type": "release"
+            //"type": "release"
         }
     },
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21",
 		"java": ">=21",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"ducky-updater": "*"
 	},
 	"suggests": {
+		"fstats-api": "*"
 	}
 }
