@@ -33,11 +33,7 @@
 		}
 	],
 	"custom": {
-        "fstats": 64,
-		"duckyupdater": {  
-            "modrinthId": "MZPZJNbC",
-			"type": "release"
-        }
+        "fstats": 64
     },
 	"depends": {
 		"fabricloader": ">=0.15.11",
@@ -46,7 +42,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"fstats-api": "*",
-		"ducky-updater": "*"
+		"fstats-api": "*"
 	}
 }
