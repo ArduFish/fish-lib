@@ -46,7 +46,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	include(modImplementation("maven.modrinth:fstats:2023.12.3"))
-	include(modImplementation("maven.modrinth:ducky-updater-lib:2023.10.1"))
+	//include(modImplementation("maven.modrinth:ducky-updater-lib:2023.10.1"))
 	
 }
 
