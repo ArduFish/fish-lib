@@ -3,15 +3,15 @@
 	"id": "fish-lib",
 	"version": "${version}",
 	"name": "Fish Lib",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "ARaspberry523's library mod.",
 	"authors": [
-		"Me!"
+		"ARaspberry523"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://ardufish123.github.io/",
+		"sources": "https://github.com/ArduFish123/fish-lib"
 	},
-	"license": "CC0-1.0",
+	"license": "ARR",
 	"icon": "assets/fish-lib/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -32,6 +32,16 @@
 			"environment": "client"
 		}
 	],
+	"custom": {
+        "fstats": 64,
+		"duckyupdater": {
+            //Mod modrinth ID from project page
+            "modrinthId": "MZPZJNbC",
+            // Optional (release, beta, alpha)
+            // Default: release
+            "type": "release"
+        }
+    },
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21",
@@ -39,6 +49,5 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
 	}
 }
