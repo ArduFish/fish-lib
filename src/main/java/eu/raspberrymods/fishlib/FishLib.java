@@ -16,9 +16,6 @@ public class FishLib implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-        public class Obsidian implements ToolMaterial {
-			// Your IDE should override the interface's methods for you, or at least shout at you to do so.
-		}
-		LOGGER.warn("This is a pretty fishy library mod!");
+		LOGGER.info("This is a pretty fishy library mod!");
 	}
 }
