@@ -1,5 +1,5 @@
 //import net.minecraft.*;
-@Override
+/*@Override
 public class ObsidianTool implements ToolMaterial {
 	// Your IDE should override the interface's methods for you, or at least shout at you to do so.
     @Override
@@ -26,4 +26,4 @@ public class ObsidianTool implements ToolMaterial {
     public Ingredient getRepairIngredient() {
     	return Ingredient.ofItems(Items.OBSIDIAN);
     }
-}
+}*/

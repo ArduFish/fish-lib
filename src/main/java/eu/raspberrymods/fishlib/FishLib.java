@@ -1,7 +1,7 @@
 package eu.raspberrymods.fishlib;
 
 import net.fabricmc.api.ModInitializer;
-
+import net.fabricmc.api.FabricBrewingRecipeRegistryBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,7 +10,19 @@ public class FishLib implements ModInitializer {
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
     public static final Logger LOGGER = LoggerFactory.getLogger("fish-lib");
-
+    static void brewingRegisterAwkward(String output, String ingredient) {
+		// code to be executed
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(
+					// Input potion.
+					Potions.WATER,
+					// Ingredient
+					Items.ingredient,
+					// Output potion.
+					RegistryEntry.of(output)
+			);
+		});
+    }
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
