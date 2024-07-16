@@ -1,7 +1,7 @@
 package eu.raspberrymods.fishlib;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.api.FabricBrewingRecipeRegistryBuilder;
+import net.fabricmc.api.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
