@@ -1,10 +1,11 @@
-© ArduFish123 (ARaspberry523) 2024-2024
+#© ArduFish123 (ARaspberry523) 2024-2024
 
-FISH PROTECTIVE LICENSE 1.0
+#FISH PROTECTIVE LICENSE 1.0
 
-DEFINITIONS:
+**DEFINITIONS**
 * package: software package
 
+**LICENSE TERMS**
 1. You may include this software in your own software only with appropriate attribution.
 
 2. You may edit and distribute this package, compiled or the source code, only if you make considerable changes.
