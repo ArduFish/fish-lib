@@ -12,7 +12,7 @@ public class ObsidianTool implements ToolMaterial {
 	// Your IDE should override the interface's methods for you, or at least shout at you to do so.
     @Override
     public int getDurability() {
-	    return 1500;
+	    return 3400;
     }
     @Override
     public float getMiningSpeedMultiplier() {
