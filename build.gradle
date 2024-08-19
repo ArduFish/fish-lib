@@ -95,10 +95,10 @@ publishing {
 		// retrieving dependencies.
 		maven {
                     name = "GitHubPackages"
-                    url = "https://maven.pkg.github.com/ArduFish123/fish-lib"
+                    url = "https://repo.repsy.io/mvn/ardufish123/fish-lib"
                     credentials {
-                        username = System.getenv("GITHUB_ACTOR")
-                        password = System.getenv("GITHUB_TOKEN")
+                        username = "ardufish123"
+                        password = System.getenv("REPSY_TOKEN")
                     }
                 }
 	}
